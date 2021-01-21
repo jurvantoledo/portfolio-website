@@ -1,7 +1,6 @@
 import React from "react"
 import { 
     Container, 
-    Jumbotron 
 } from "react-bootstrap"
 import About from "../About"
 import "./homepage.scss"
