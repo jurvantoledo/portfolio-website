@@ -16,8 +16,16 @@ export default function Homepage() {
         >
             <h1>Hi I'm Jur van Toledo</h1>
         </div>
- 
+        
         <About />
+
+        <footer>
+            <Container className="footer-container">
+                <div>
+                    Email: <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a>
+                </div>
+            </Container>
+        </footer>
     </>
     )
 }
