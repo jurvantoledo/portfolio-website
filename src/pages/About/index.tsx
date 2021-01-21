@@ -7,6 +7,8 @@ import {
 } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 
 
 import "./about.scss"
@@ -50,6 +52,9 @@ export default function About() {
             <h4>Socials</h4>
              <a target="_blank" href="https://github.com/jurvantoledo">
              <FontAwesomeIcon icon={faGithub} />
+             </a>
+             <a target="_blank" href="https://www.linkedin.com/in/jurvantoledo/">
+             <FontAwesomeIcon icon={faLinkedin} />
              </a>
             </div>
             </Card>
