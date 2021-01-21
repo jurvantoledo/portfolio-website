@@ -1,0 +1,15 @@
+.about-cards.container.col-md-12 figure {
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+}
+
+.about-cards.container.col-md-12 img {
+  height: inherit;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate(-30%, 0%);
+}

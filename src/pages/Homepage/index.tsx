@@ -20,7 +20,11 @@ export default function Homepage() {
                 <h1>Jur van Toledo</h1>
         </Jumbotron>
         <Container>
-        </Container>
+            <p>
+                Hi my name is Jur van Toledo and I'm a 21 year old 
+                Junior developer from The Netherlands.
+            </p>
+        </Container>    
         <About />
     </>
     )
