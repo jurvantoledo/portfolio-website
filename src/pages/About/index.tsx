@@ -25,7 +25,31 @@ export default function About() {
             >
             <Card
             as={Col} 
-            md={{ span: 3 }}
+            md={{ span: 4 }}
+            >
+             <h3>Motorcycles</h3>
+             <figure>
+              <img 
+               src="https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+               alt="motor-image" />
+             </figure>
+             <p>I like Motorcycles</p>
+            </Card>
+            <Card
+            as={Col} 
+            md={{ span: 4 }}
+            >
+             <h3>Motorcycles</h3>
+             <figure>
+              <img 
+               src="https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+               alt="motor-image" />
+             </figure>
+             <p>I like Motorcycles</p>
+            </Card>
+            <Card
+            as={Col} 
+            md={{ span: 4 }}
             >
              <h3>Motorcycles</h3>
              <figure>
