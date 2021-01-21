@@ -22,7 +22,7 @@ export default function Homepage() {
         <footer>
             <Container className="footer-container">
                 <div>
-                    Email: <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a>
+                    <p>Email: <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a></p>
                 </div>
             </Container>
         </footer>

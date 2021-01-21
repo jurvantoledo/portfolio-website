@@ -27,6 +27,12 @@
   */
 }
 
+/*++++++++CARD COL-MD-6:LAST-CHILD++++++++++*/
+.card.col-md-6:last-child {
+  display: flex;
+  justify-content: center;
+}
+
 svg.svg-inline--fa.fa-github.fa-w-16 {
   color: #000;
   height: 40px;
