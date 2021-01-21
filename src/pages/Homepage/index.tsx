@@ -23,6 +23,9 @@ export default function Homepage() {
             <p>
                 Hi my name is Jur van Toledo and I'm a 21 year old 
                 Junior developer from The Netherlands.
+                Recently I graduated at the Codaisseur's Academy as Fullstack Developer, 
+                passionated in creating awesome web- and mobile applications. 
+                I am an enthusiastic developer looking for a new challenge to develop/learn more skills.
             </p>
         </Container>    
         <About />
