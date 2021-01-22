@@ -1,3 +1,4 @@
+/*+++++++CONTAINER+++++++++*/
 .about-me-container.container.col-md-12 {
   padding-bottom: 50px;
 }
@@ -27,6 +28,7 @@
   */
 }
 
+/*++++++++CARD COL-MD-6++++++++++*/
 .about-cards .card.col-md-6 {
   border: none;
 }
@@ -46,4 +48,9 @@ svg.svg-inline--fa.fa-linkedin.fa-w-14 {
   height: 40px;
   width: 40px;
   color: #0072b1;
+}
+
+/*+++++++TITLE+++++++++*/
+.about-title.jumbotron {
+  padding-top: 3rem !important;
 }

@@ -21,7 +21,7 @@ export default function About() {
             as={Col} 
             md={{ span: 12}}
         >
-            <Jumbotron>
+            <Jumbotron className="about-title">
               <h2>About Me</h2>
             </Jumbotron>
            <Container className="about-cards"             
