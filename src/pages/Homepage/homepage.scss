@@ -1,5 +1,13 @@
 .banner-container {
+  display: flex;
+  justify-content: center;
   height: 500px;
+}
+
+h1.banner-text {
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 footer {

@@ -12,9 +12,11 @@ export default function Homepage() {
     <>
         <div 
         className="banner-container"
-        style={{ backgroundImage: `url(https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)` }}
+        style={{ backgroundImage: `url(https://images.pexels.com/photos/4119179/pexels-photo-4119179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)` }}
         >
-            <h1>Hi I'm Jur van Toledo</h1>
+            <h1 className="banner-text">
+                Hi I'm Jur van Toledo
+            </h1>
         </div>
         
         <About />
