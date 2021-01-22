@@ -1,0 +1,55 @@
+/*++++++++CONTAINERS++++++++++*/
+.portfolio-container.container {
+  margin-bottom: 100px;
+}
+
+.portfolio-projects.container.col-md-12 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*++++++++CARDS++++++++++*/
+.portfolio-projects .card.col-md-3 {
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #000;
+  height: 450px;
+  border-radius: 0;
+}
+
+/*++++++++IMAGES++++++++++*/
+.portfolio-projects figure {
+  position: relative;
+  height: 450px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.portfolio-projects figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-projects img {
+  height: inherit;
+}
+
+/*++++++++LINKS++++++++++*/
+.portfolio-projects a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-weight: bold;
+}
