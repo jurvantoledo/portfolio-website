@@ -10,6 +10,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import "./about.scss"
+import Foto from "./foto-jur.jpg"
+
 
 export default function About() {
     return(
@@ -30,13 +32,11 @@ export default function About() {
             as={Col} 
             md={{ span: 6 }}
             >
-             <h3>Motorcycles</h3>
              <figure>
               <img 
-               src="https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
-               alt="motor-image" />
+               src={Foto} 
+               alt="jur-image" />
              </figure>
-             <p>I like Motorcycles</p>
             </Card>
             <Card
             as={Col} 
