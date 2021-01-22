@@ -3,6 +3,7 @@ import {
     Container, 
 } from "react-bootstrap"
 import About from "../About"
+import Portfolio from "../Portfolio"
 import "./homepage.scss"
 
 export default function Homepage() {
@@ -17,6 +18,7 @@ export default function Homepage() {
         </div>
         
         <About />
+        <Portfolio />
 
         <footer>
             <Container className="footer-container">
