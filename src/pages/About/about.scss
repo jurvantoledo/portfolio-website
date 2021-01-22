@@ -27,8 +27,12 @@
   */
 }
 
+.about-cards .card.col-md-6 {
+  border: none;
+}
+
 /*++++++++CARD COL-MD-6:LAST-CHILD++++++++++*/
-.card.col-md-6:last-child {
+.about-cards .card.col-md-6:last-child {
   display: flex;
   justify-content: center;
 }
