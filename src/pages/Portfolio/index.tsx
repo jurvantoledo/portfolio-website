@@ -35,7 +35,9 @@ export default function Portfolio() {
                  <figure>
                    <img src="https://images.pexels.com/photos/2974623/pexels-photo-2974623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="project-1" />
                  </figure>
-                 <a target="_blank" 
+                 <a 
+                 target="_blank" 
+                 rel="noreferrer" 
                  href="https://add-that-store.netlify.app/"
                  >
                     Add A Store
@@ -49,7 +51,8 @@ export default function Portfolio() {
                    <img src="https://images.pexels.com/photos/2974623/pexels-photo-2974623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="project-1" />
                  </figure>
                  <a 
-                 target="_blank" 
+                 target="_blank"
+                 rel="noreferrer" 
                  href="https://add-that-store.netlify.app/"
                  >
                     Add A Store

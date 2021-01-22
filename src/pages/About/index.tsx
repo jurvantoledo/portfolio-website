@@ -35,7 +35,7 @@ export default function About() {
              <figure>
               <img 
                src={Foto} 
-               alt="jur-image" />
+               alt="jur" />
              </figure>
             </Card>
             <Card
@@ -49,10 +49,10 @@ export default function About() {
                 </p>
             <div className="social-icons">
             <h4>Socials</h4>
-             <a target="_blank" href="https://github.com/jurvantoledo">
+             <a target="_blank" rel="noreferrer" href="https://github.com/jurvantoledo">
              <FontAwesomeIcon icon={faGithub} />
              </a>
-             <a target="_blank" href="https://www.linkedin.com/in/jurvantoledo/">
+             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jurvantoledo/">
              <FontAwesomeIcon icon={faLinkedin} />
              </a>
             </div>
