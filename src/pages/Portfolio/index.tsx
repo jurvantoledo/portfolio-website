@@ -53,12 +53,11 @@ export default function Portfolio() {
                  <a 
                  target="_blank"
                  rel="noreferrer" 
-                 href="https://add-that-store.netlify.app/"
+                 href="https://borderlands-weapon-collector.netlify.app/"
                  >
-                    Add A Store
+                    Borderlands weapon collector
                 </a>
                 </Card>
-
             </Container>
         </Container>
       </Container>
