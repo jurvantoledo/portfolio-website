@@ -14,14 +14,13 @@
   padding: 0;
   overflow: hidden;
   border: 2px solid #000;
-  height: 450px;
+  height: auto;
   border-radius: 0;
 }
 
 /*++++++++IMAGES++++++++++*/
 .portfolio-projects figure {
   position: relative;
-  height: 450px;
   margin: 0;
   overflow: hidden;
 }
@@ -37,7 +36,8 @@
 }
 
 .portfolio-projects img {
-  height: inherit;
+  height: 100%;
+  width: 100%;
 }
 
 /*++++++++LINKS++++++++++*/

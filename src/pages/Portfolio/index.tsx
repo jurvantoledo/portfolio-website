@@ -5,6 +5,8 @@ import {
     Col,
     Card
 } from "react-bootstrap"
+import addStoreFoto from "./add-a-store.jpg"
+import borderlandsFoto from "./borderlands-website.jpg"
 
 import "./portfolio.scss"
 
@@ -19,10 +21,6 @@ export default function Portfolio() {
         <Jumbotron className="title">
             <h2>Portfolio</h2>
         </Jumbotron>
-        <Container className="portfolio-container">
-            <p>
-              <strong>Projects</strong>
-            </p>
             <Container 
             className="portfolio-projects"
             as={Col} 
@@ -33,7 +31,7 @@ export default function Portfolio() {
                 md={{ span: 3}}
                 >
                  <figure>
-                   <img src="https://images.pexels.com/photos/2974623/pexels-photo-2974623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="project-1" />
+                   <img src={addStoreFoto} alt="project-1" />
                  </figure>
                  <a 
                  target="_blank" 
@@ -48,7 +46,7 @@ export default function Portfolio() {
                 md={{ span: 3}}
                 >
                  <figure>
-                   <img src="https://images.pexels.com/photos/2974623/pexels-photo-2974623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="project-1" />
+                   <img src={borderlandsFoto} alt="project-1" />
                  </figure>
                  <a 
                  target="_blank"
@@ -60,7 +58,6 @@ export default function Portfolio() {
                 </Card>
             </Container>
         </Container>
-      </Container>
     </>
     )
 }
