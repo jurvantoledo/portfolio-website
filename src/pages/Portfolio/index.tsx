@@ -5,8 +5,8 @@ import {
     Col,
     Card
 } from "react-bootstrap"
-import addStoreFoto from "./add-a-store.jpg"
-import borderlandsFoto from "./borderlands-website.jpg"
+import addStoreFoto from "./Images/add-a-store.jpg"
+import borderlandsFoto from "./Images/borderlands-website.jpg"
 
 import "./portfolio.scss"
 

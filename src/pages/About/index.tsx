@@ -9,6 +9,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+import ReactLogo from "./Logo/react-logo.png"
+import ReduxLogo from "./Logo/redux-logo.png"
+
+
 import "./about.scss"
 import Foto from "./foto-jur.jpg"
 
@@ -57,6 +61,31 @@ export default function About() {
              </a>
             </div>
             </Card>
+           </Container>
+           <h3>Technologies</h3>
+           <Container
+            as={Col} 
+            md={{ span: 12}}
+            className="techStack"
+           >
+           <Card
+             as={Col} 
+             md={{ span: 2 }}
+             className="technology"
+           >
+            <figure>
+               <img src={ReactLogo} alt="react" />
+            </figure>
+           </Card>
+           <Card
+             as={Col} 
+             md={{ span: 2 }}
+             className="technology"
+           >
+             <figure>
+               <img src={ReduxLogo} alt="redux" />
+            </figure>
+           </Card>
            </Container>
         </Container>
         </>

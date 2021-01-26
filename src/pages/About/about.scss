@@ -1,3 +1,8 @@
+/*+++++++TITLE+++++++++*/
+.about-title.jumbotron {
+  padding-top: 3rem !important;
+}
+
 /*+++++++CONTAINER+++++++++*/
 .about-me-container.container.col-md-12 {
   padding-bottom: 50px;
@@ -7,30 +12,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.about-cards.container.col-md-12 figure {
-  overflow: hidden;
-  height: 350px;
-  position: relative;
-  text-align: center;
-}
-
-.about-cards.container.col-md-12 img {
-  height: 100%;
-  /*
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  transform: translate(-0%, 0%);
-  */
-}
-
-/*++++++++CARD COL-MD-6++++++++++*/
-.about-cards .card.col-md-6 {
-  border: none;
 }
 
 /*++++++++CARD COL-MD-6:LAST-CHILD++++++++++*/
@@ -50,7 +31,60 @@ svg.svg-inline--fa.fa-linkedin.fa-w-14 {
   color: #0072b1;
 }
 
-/*+++++++TITLE+++++++++*/
-.about-title.jumbotron {
-  padding-top: 3rem !important;
+/*++++++++FIGURE & IMG+++++++*/
+.about-cards.container.col-md-12 figure {
+  overflow: hidden;
+  height: 350px;
+  position: relative;
+  text-align: center;
+}
+
+.about-cards.container.col-md-12 figure::after {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  right: 0;
+  bottom: 0;
+  background: rgba(211, 211, 211, 1);
+  width: 25%;
+  z-index: -1;
+}
+
+.about-cards.container.col-md-12 img {
+  height: 100%;
+  /*
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate(-0%, 0%);
+  */
+}
+
+/*++++++++CARD COL-MD-6++++++++++*/
+.about-cards .card.col-md-6 {
+  border: none;
+  background-color: transparent;
+}
+
+/*+++++++++TECHSTACK STYLING++++++*/
+.techStack.container.col-md-12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.technology.card.col-md-2 {
+  border: none;
+}
+
+.technology.card.col-md-2 figure {
+  height: 50px;
+  overflow: hidden;
+}
+
+.technology.card.col-md-2 img {
+  height: 100%;
 }
