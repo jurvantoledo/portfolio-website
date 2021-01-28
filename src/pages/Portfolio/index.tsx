@@ -17,7 +17,7 @@ export default function Portfolio() {
         className="portfolio-container"
       >
         <Jumbotron className="title">
-            <h2>Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
         </Jumbotron>
             <Container 
             className="portfolio-projects"

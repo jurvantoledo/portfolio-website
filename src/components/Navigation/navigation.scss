@@ -1,0 +1,24 @@
+nav.navbar.navbar-expand-lg.navbar-light {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+}
+
+.navbar-nav.nav-fill ul {
+  width: 100%;
+}
+
+.navbar-nav.nav-fill li {
+  float: left;
+  width: 25%;
+  list-style: none;
+}
+
+.navbar-nav.nav-fill a {
+  color: #fff;
+}
+
+.navbar-nav.nav-fill a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}

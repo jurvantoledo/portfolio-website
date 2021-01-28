@@ -50,7 +50,7 @@ export default function About() {
             >
             <div className="about-me-title">
               <h3>
-                About Me <br/>
+                <a id="about-me">About Me</a> <br/>
               <small>Junior Full-Stack Developer</small>
               </h3>
             </div>
@@ -75,7 +75,7 @@ export default function About() {
            </Container>
         </Container>
         <Container className="techContainer">
-           <h3>Technologies</h3>
+           <h3><a id="technologies">Technologies</a></h3>
            <Container
             as={Col} 
             md={{ span: 12}}
