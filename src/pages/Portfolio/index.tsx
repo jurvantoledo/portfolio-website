@@ -26,7 +26,7 @@ export default function Portfolio() {
             >
                 <Card 
                 as={Col} 
-                md={{ span: 3}}
+                md={{ span: 4}}
                 >
                  <figure>
                    <img src={addStoreFoto} alt="project-1" />
@@ -41,7 +41,7 @@ export default function Portfolio() {
                 </Card>
                 <Card 
                 as={Col} 
-                md={{ span: 3}}
+                md={{ span: 4}}
                 >
                  <figure>
                    <img src={borderlandsFoto} alt="project-1" />
