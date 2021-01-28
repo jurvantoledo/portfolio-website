@@ -12,7 +12,7 @@ export default function Homepage() {
     <>
         <div 
         className="banner-container"
-        style={{ backgroundImage: `url(https://images.pexels.com/photos/4119179/pexels-photo-4119179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)` }}
+        style={{ backgroundImage: `url(https://wallpaperaccess.com/full/1088032.jpg)` }}
         >
             <h1 className="banner-text">
                 Hi I'm Jur van Toledo
@@ -23,11 +23,6 @@ export default function Homepage() {
         <Portfolio />
 
         <footer>
-            <Container className="footer-container">
-                <div>
-                    <p>Email: <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a></p>
-                </div>
-            </Container>
         </footer>
     </>
     )

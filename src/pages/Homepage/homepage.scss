@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   height: 500px;
+  background-size: cover;
+  background-position: center;
 }
 
 h1.banner-text {
@@ -11,6 +13,5 @@ h1.banner-text {
 }
 
 footer {
-  padding: 50px 0;
   border-top: 1px solid #000;
 }
