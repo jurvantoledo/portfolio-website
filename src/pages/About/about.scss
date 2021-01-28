@@ -1,11 +1,6 @@
-/*+++++++TITLE+++++++++*/
-.about-title.jumbotron {
-  padding-top: 3rem !important;
-}
-
 /*+++++++CONTAINER+++++++++*/
-.about-me-container.container.col-md-12 {
-  padding-bottom: 50px;
+.about-me-container {
+  padding: 100px 0;
 }
 
 .about-cards.container.col-md-12 {
@@ -15,9 +10,14 @@
 }
 
 /*++++++++CARD COL-MD-6:LAST-CHILD++++++++++*/
-.about-cards .card.col-md-6:last-child {
+.about-cards .card.col-md-7:last-child {
   display: flex;
-  justify-content: center;
+  text-align: left;
+}
+
+.about-cards .card.col-md-7 .social-icons {
+  text-align: center;
+  padding-top: 50px;
 }
 
 svg.svg-inline--fa.fa-github.fa-w-16 {
@@ -36,19 +36,7 @@ svg.svg-inline--fa.fa-linkedin.fa-w-14 {
   overflow: hidden;
   height: 350px;
   position: relative;
-  text-align: center;
-}
-
-.about-cards.container.col-md-12 figure::after {
-  content: "";
-  position: absolute;
-  top: 5%;
-  left: 20%;
-  right: 0;
-  bottom: 0;
-  background: rgba(211, 211, 211, 1);
-  width: 25%;
-  z-index: -1;
+  text-align: right;
 }
 
 .about-cards.container.col-md-12 img {
@@ -64,7 +52,7 @@ svg.svg-inline--fa.fa-linkedin.fa-w-14 {
 }
 
 /*++++++++CARD COL-MD-6++++++++++*/
-.about-cards .card.col-md-6 {
+.about-cards .card {
   border: none;
   background-color: transparent;
 }

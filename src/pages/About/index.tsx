@@ -22,19 +22,14 @@ export default function About() {
         <>
         <Container 
             className="about-me-container"
-            as={Col} 
-            md={{ span: 12}}
         >
-            <Jumbotron className="about-title">
-              <h2>About Me</h2>
-            </Jumbotron>
            <Container className="about-cards"             
             as={Col} 
             md={{ span: 12}}
             >
             <Card
             as={Col} 
-            md={{ span: 6 }}
+            md={{ span: 5 }}
             >
              <figure>
               <img 
@@ -44,9 +39,14 @@ export default function About() {
             </Card>
             <Card
             as={Col} 
-            md={{ span: 6 }}
+            md={{ span: 7 }}
             >
+              <h3>
+                About Me <br/>
+              <small>Junior Full-Stack Developer</small>
+              </h3>
                 <p>
+                    I'm <strong>Jur van Toledo</strong> a former truck driver trying to become a developer.
                     recently I graduated at the Codaisseur's Academy as Fullstack Developer, 
                     passionated in creating awesome web- and mobile applications. 
                     I am an enthusiastic developer looking for a new challenge to develop/learn more skills.
