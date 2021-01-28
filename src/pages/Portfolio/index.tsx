@@ -15,8 +15,6 @@ export default function Portfolio() {
     <>
       <Container 
         className="portfolio-container"
-        as={Col} 
-        md={{ span: 12}}
       >
         <Jumbotron className="title">
             <h2>Portfolio</h2>
