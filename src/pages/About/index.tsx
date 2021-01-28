@@ -2,7 +2,8 @@ import React from "react"
 import { 
     Card, 
     Container, 
-    Col, 
+    Col,
+    Jumbotron, 
 } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -55,13 +56,12 @@ export default function About() {
               </h3>
             </div>
                 <p>
-                    I'm <strong>Jur van Toledo</strong> a former truck driver trying to become a developer.
+                    I'm <strong>Jur van Toledo</strong> a former truck driver changed to developer.
                     Recently I graduated at the Codaisseur's Academy as Fullstack Developer, 
                     passionated in creating awesome web- and mobile applications. 
                     I am an enthusiastic developer looking for a new challenge to develop/learn more skills.
                 </p>
                 <p><strong>Email:</strong> <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a></p>
-                <p><strong>Phone:</strong> 06 51867733</p>
             <div className="social-icons">
             <h4>Socials</h4>
              <a target="_blank" rel="noreferrer" href="https://github.com/jurvantoledo">
@@ -74,8 +74,11 @@ export default function About() {
             </Card>
            </Container>
         </Container>
+
         <Container className="techContainer">
+         <Jumbotron className="title">
            <h3><a id="technologies">Technologies</a></h3>
+         </Jumbotron>
            <Container
             as={Col} 
             md={{ span: 12}}
@@ -181,6 +184,7 @@ export default function About() {
             </figure>
            </Card>
            </Container>
+
           </Container>
         </>
     )
