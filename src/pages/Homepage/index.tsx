@@ -1,7 +1,4 @@
 import React from "react"
-import { 
-    Container, 
-} from "react-bootstrap"
 import Navigation from "../../components/Navigation"
 import About from "../About"
 import Portfolio from "../Portfolio"
