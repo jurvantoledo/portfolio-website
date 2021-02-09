@@ -38,6 +38,10 @@ export default function Portfolio() {
                  >
                     Add A Store
                 </a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 </Card>
                 <Card 
                 as={Col} 

@@ -4,6 +4,7 @@ import {
     Container, 
     Col,
     Jumbotron, 
+    Button
 } from "react-bootstrap"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -31,6 +32,10 @@ export default function About() {
         <Container 
             className="about-me-container"
         >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
            <Container className="about-cards"             
             as={Col} 
             md={{ span: 12}}
@@ -61,7 +66,13 @@ export default function About() {
                     passionated in creating awesome web- and mobile applications. 
                     I am an enthusiastic developer looking for a new challenge to develop/learn more skills.
                 </p>
-                <p><strong>Email:</strong> <a href="mailto:jurvantoledo@live.nl">jurvantoledo@live.nl</a></p>
+                <p><strong>Email:</strong>
+                <a href="mailto:jurvantoledo@live.nl">
+                <Button className="type-3">
+                  jurvantoledo@live.nl
+                  </Button>
+                </a>
+                </p>
             <div className="social-icons">
             <h4>Socials</h4>
              <a target="_blank" rel="noreferrer" href="https://github.com/jurvantoledo">
@@ -89,18 +100,21 @@ export default function About() {
             md={{ span: 2 }}
             className="technology"
            >
-            <figure>
-               <img src={JsLogo} alt="JavaScript" />
-            </figure>
+               <figure>
+                <img src={JsLogo} alt="JavaScript" />
+               </figure>
+               <div className="neon-light"></div>
            </Card>
            <Card
             as={Col} 
             md={{ span: 2 }}
             className="technology"
            >
-            <figure>
-               <img src={TsLogo} alt="TypeScript" />
-            </figure>
+
+               <figure>
+                <img src={TsLogo} alt="TypeScript" />
+              </figure>
+              <div className="neon-light"></div>
            </Card>
            <Card
              as={Col} 

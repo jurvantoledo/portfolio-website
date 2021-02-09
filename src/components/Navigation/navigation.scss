@@ -2,24 +2,72 @@ nav.navbar.navbar-expand-lg.navbar-light {
   position: absolute;
   width: 100%;
   top: 10px;
+  z-index: 999;
+}
+
+nav.navbar {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
 }
 
 .navbar-nav.nav-fill ul {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-nav.nav-fill li {
-  float: left;
-  width: 25%;
-  list-style: none;
+  display: inline-block;
+  list-style: outside none none;
+  width: 20%;
+  margin: 0.5em 1em;
+  padding: 0;
 }
 
 .navbar-nav.nav-fill a {
-  color: #fff;
-  font-weight: bold;
-  transition: 0.1s;
+  padding: 0.5em 0.8em;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.navbar-nav.nav-fill a::before,
+.navbar-nav.nav-fill a::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.navbar-nav.nav-fill a::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3e8914;
+  border-right: 3px solid #2e640f;
+  transform: translate(-100%, 50%);
+}
+
+.navbar-nav.nav-fill a:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2e640f;
+  border-left: 3px solid #3e8914;
+  transform: translate(100%, -50%);
+}
+
+.navbar-nav.nav-fill a:hover:before,
+.navbar-nav.nav-fill a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
 }
 
 .navbar-nav.nav-fill a:hover {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: #fff;
 }
